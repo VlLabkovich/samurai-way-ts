@@ -1,0 +1,10 @@
+
+.nav {
+    grid-area: n;
+    background-color: rgba(128, 201, 129, 0.79);
+    border-radius: 5px;
+    padding-left: 20px;
+    /*border: 1px solid red;*/
+    height: 500px;
+    /*align-self: start;*/
+}

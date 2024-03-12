@@ -1,22 +1,24 @@
 import React from "react";
 
+import s from './styles/Profile.module.css'
+
 export const Profile = () => {
 
     return (
-        <div className='content'>
+        <div className={s.content}>
 
             <div>
-                {/*<img src='https://avatars.mds.yandex.net/get-mpic/5234850/img_id6961647807588406633.jpeg/orig'/>*/}
-                <img src='https://gvimmigration.com/wp-content/uploads/2018/05/shutterstock_216320248-1.jpg'/>
+                <img src='https://wallpaperaccess.com/full/3842133.jpg' alt='Social networks'/>
+                {/*<img src='https://gvimmigration.com/wp-content/uploads/2018/05/shutterstock_216320248-1.jpg'/>*/}
             </div>
             <div>
                 ava + description
             </div>
-            <div>
+            <div className='posts'>
                 My posts
-                <div>New posts</div>
-                <div>Post 1</div>
-                <div>Post 2</div>
+                <div className={s.posts}>New posts</div>
+                <div className={s.item}>Post 1</div>
+                <div className={s.item}>Post 2</div>
             </div>
             <div>
 
