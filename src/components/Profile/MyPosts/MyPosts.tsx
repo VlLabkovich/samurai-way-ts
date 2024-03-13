@@ -17,10 +17,10 @@ export const MyPosts = () => {
             <div className={s.posts}>
                 New posts
             </div>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
+            <hr/>
+            <Post message='Hello, how are you?' likes={10}/>
+            <Post message='It is my first post' likes={20}/>
+            <Post message='It is my first post' likes={0}/>
         </div>
     )
 }
