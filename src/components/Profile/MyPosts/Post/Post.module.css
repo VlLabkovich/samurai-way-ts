@@ -1,0 +1,12 @@
+.item {
+    color: green;
+}
+
+.item img {
+    width: 80px;
+    height: 80px;
+}
+
+.item span {
+    color: rgba(0, 3, 131, 0.79);
+}
